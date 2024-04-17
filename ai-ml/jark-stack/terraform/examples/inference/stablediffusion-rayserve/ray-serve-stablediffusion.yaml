@@ -54,7 +54,7 @@ spec:
           name: stablediffusion-service
           namespace: stablediffusion
       rayStartParams:
-        dashboard-host: '0.0.0.0'
+        dashboard-host: '127.0.0.1'
       template:
         spec:
           containers:
